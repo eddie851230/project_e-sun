@@ -1,9 +1,10 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/allGoods">所有商品</router-link> |
+    <router-link to="/myGoods">我的清單</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>

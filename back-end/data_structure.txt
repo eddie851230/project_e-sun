@@ -1,0 +1,22 @@
+使用者資料 table_user
+
+	userID		u01
+	userName	小名
+	email		123@mail.com
+	account		u01_123
+
+
+產品資料 table_product
+	no 		p01
+	productName 	商品01號
+	Pprice 		5000
+	feeRate		0.01
+	
+購買紀錄 table_myGoods
+	billNo		b01
+	unit		1
+	acct		u01_123
+	chargeFee	50 //table_product.price * table_product.feeRate
+	totalAmount     5050 //(chargeFee + Pprice)*unit
+
+	
